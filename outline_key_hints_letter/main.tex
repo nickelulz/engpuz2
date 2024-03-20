@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ebgaramond}
+
+\usepackage{titling}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+% mi - manual indentation
+\newcommand{\mi}{\hspace*{5mm}}
+\newcommand{\psep}{\\ \mi}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\tableofcontents
+  \newpage
+
+  \section{Project Outline}
+  \input{outline}
+  \newpage
+
+  \section{Hints}
+  \input{hints}
+  \newpage
+
+  \section{Answer Key/Solutions}
+  \input{key}
+  \newpage
+
+  \section{Introductory Letter}
+  \input{intro_letter}
+\end{document}
